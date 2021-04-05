@@ -1,0 +1,130 @@
+body{
+    background-color: #f8f5f1;
+    text-align:left;
+    color: #f6f6f6;
+    font-family: 'Lexend Deca', sans-serif;
+    
+}
+.components{
+    display: flex;
+    padding: 10%;
+    letter-spacing: 3px;
+    line-height: 2rem; 
+}
+.yeke{
+    padding: 4rem;  
+}
+#first{
+    background-color: #f58634;   
+    border-radius: 1rem 0 0 1rem; 
+}
+#second{
+    background-color: #276678;
+    border-radius:  0 0 0 0 ; 
+}
+#third{
+    background-color: #184d47;
+    border-radius:  0 1rem 1rem 0 ; 
+}
+p{
+    font-size: 15px;
+    padding-bottom: 2rem;
+
+}
+img{
+    height: 3rem;
+}
+
+h3{
+    font-size: 35px;
+}
+button{
+    display: block;
+    border-radius: 50rem;
+    border: 2px solid;
+    color: #f6f6f6;
+    padding: 7px 1.2rem;
+    font-size: 15px;
+    cursor: pointer;
+    border-color: #f6f6f6;
+    transition: all 0.3s ease-in-out;
+
+}  
+button:hover{
+    background-color: #f6f6f6;
+}
+.cep{
+    background-color: #f58634;
+}
+.cep:hover{
+    color: #f58634;
+}
+.orta{
+    background-color: #276678;
+}
+.orta:hover {
+    color: #276678;
+}
+.sag{
+    background-color:#184d47;
+}
+.sag:hover{
+    color: #184d47;
+}
+@media (max-width:1100px) {
+    .components{
+        padding: 5%;
+        letter-spacing: 1px;
+        line-height: 1.5rem; 
+    }
+    .yeke{
+        padding: 3rem;  
+    }
+}
+@media (max-width:900px) {
+    .components{
+        padding: 5%;
+        letter-spacing: 1px;
+        line-height: 1rem; 
+    }
+    h3{
+        font-size: 25px;
+    }
+    p{
+        font-size: 10px;
+        padding-bottom: 0.8rem;
+    }
+    img{
+        height: 2rem;
+    }
+    button{
+        font-size: 10px;
+    }
+    .yeke{
+        padding: 2rem;  
+    }
+}
+@media (max-width:600px) {
+    .components{
+        padding: 3%;
+        letter-spacing: 0px;
+        line-height: 0.5rem; 
+    }
+    h3{
+        font-size: 12px;
+    }
+    p{
+        font-size: 5px;
+        padding-bottom: 0.8rem;
+    }
+    img{
+        height: 1rem;
+    }
+    button{
+        font-size: 8px;
+        padding: 4px 0.8rem;
+    }
+    .yeke{
+        padding: 2rem;  
+    }
+}
